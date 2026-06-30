@@ -31,10 +31,10 @@ def encode_fox(text, sample_rate, mode_duration):
     return np.array(audio_signal, dtype=np.float32)
 
 # --- FOX PROFILE CONFIGURATION ---
-SELECTED_PROFILE = "Balanced"  # Options: "Stability", "Balanced", "Speed"
+SELECTED_PROFILE = "Stability"  # Options: "Stability", "Balanced", "Speed"
 profile_durations = {"Stability": 0.2, "Balanced": 0.1, "Speed": 0.04}
 duration = profile_durations[SELECTED_PROFILE]
-message = "CQ YD1KLX GRID OI33IR"
+message = "HELLO WORLD"
 sample_rate = 44100
 
 print(f"Encoding payload using FOX profile [{SELECTED_PROFILE}]...")
