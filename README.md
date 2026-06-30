@@ -1,4 +1,4 @@
-# FOX - Fox Digital Mode Protocol
+# FOX - Fox Digital Mode Protocol for Amateur Radio
 
 Developed by **SkywaveDX**
 
