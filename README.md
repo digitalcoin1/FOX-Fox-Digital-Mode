@@ -48,6 +48,10 @@ py -m venv .venv
 .venv\Scripts\Activate.ps1
 pip install numpy scipy
 ```
+An error occured while executing .venv\Scripts\Activate.ps1? Execute
+```bash
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+```
 
 ### 2. Transmitting (TX)
 Open FOX_TX.py, configure your SELECTED_PROFILE ("Stability", "Balanced", or "Speed") and customize your message payload (e.g., "CQ YD1KLX GRID OI33IR"). Run the script to generate your transmission wave file:
